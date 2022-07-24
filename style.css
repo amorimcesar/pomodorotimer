@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color:hsla(0, 0%, 100%, 1);
+  --primary-color:hsla(240, 6%, 21%, 1);
+  --secondary-color:hsla(194, 97%, 31%, 1);
+  --thirdy-color: hsla(0, 0%, 100%, 1);
+
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+  text-align: center;
+
+  font-family: 'Roboto', sans-serif;
+
+  display: grid;
+
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+main{
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  gap: 19.2rem;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+}
+
+.hide{
+  display: none;
+}
+
+.active path[fill*='#E1E1E6']{
+  fill:#02799D;
+}
+
+.active path[fill*='#323238']{
+  fill:white;
+}
+
+.wrapper-timer{
+  align-self: center;
+  justify-self: center;
+}
+
+#timer {
+  font-size: 12.6rem;
+  display: flex;
+}
+
+#controls {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 4rem;
+}
+
+#music {
+  display: grid;
+  grid-template-areas: 
+  'A B'
+  'C D';
+  gap: 3.2rem;
+
+  width: clamp(10rem, 10rem + 30vw, 30.8rem);
+  height: clamp(10rem, 10rem + 30vw, 33,12.6rem);
+}
