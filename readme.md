@@ -5,7 +5,6 @@ Consiste na utilização de um cronômetro para dividir o trabalho em períodos 
 
 # Funcionalidades
 
-- Alternancia de Temas
 - Aumentar ou diminuir timer em  5 minutos
 - Sons para concentração
 - Som para alertar da finalização do período
